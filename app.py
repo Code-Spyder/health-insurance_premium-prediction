@@ -23,7 +23,7 @@ def fun2():
 
     q = [[age,gender,bmi,num_child,smoker]]
 
-    mymodel = pickle.load(open('model1.pkl', "rb"))
+    mymodel = pickle.load(open('model1_3_11.pkl', "rb"))
     premium = round(mymodel.predict(q)[0],2)
     #return "<h1> hi {} <br/> your predicted Premium Amount is {} </h1>".format(nm,premium)
     #return f"<h1> hi {nm} <br/> your predicted Premium Amount is {premium} </h1>"
